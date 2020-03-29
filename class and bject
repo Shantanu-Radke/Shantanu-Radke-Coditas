@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace democlass
+{
+    public class person
+    {
+       public string firstname;
+       public string lastname;
+
+     public void introduce()
+     {
+           Console.WriteLine("firstname is : " + firstname + " secondname is: " + lastname);
+     }
+     
+
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            person p= new person();
+            p.firstname="ABCD";
+            p.lastname="xyz";
+
+            p.introduce();
+        }
+    }
+}
