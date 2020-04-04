@@ -13,7 +13,7 @@ namespace ControlFlow_SwitchCase
             summer,
             rainy,
             winter,
-            spring
+            Spring
 
 
         }
@@ -30,7 +30,7 @@ namespace ControlFlow_SwitchCase
                 case season.winter:
                     Console.WriteLine("This is cold");
                     break;
-                case season.spring:
+                case season.Spring:
                     Console.WriteLine("This is beautifull");
                     break;
                 case season.rainy:
