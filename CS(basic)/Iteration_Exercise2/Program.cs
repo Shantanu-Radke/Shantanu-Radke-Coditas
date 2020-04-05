@@ -13,7 +13,7 @@ namespace Iteration_Exercise2
     {
         static void Main(string[] args)
         {
-            int i = 0;// string str = "";
+            int j = 0;// string str = "";
            while(true)
            {
 
@@ -21,10 +21,10 @@ namespace Iteration_Exercise2
             var str=Console.ReadLine();
             if (str == "ok")
                 break;
-            i = i + Convert.ToInt16(str);
+            j = j + Convert.ToInt16(str);
            }
 
-           Console.WriteLine("Sum is " + i);
+           Console.WriteLine("Sum is " + j);
         }
     }
 }
