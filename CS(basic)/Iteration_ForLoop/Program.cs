@@ -14,10 +14,10 @@ namespace Iteration_ForLoop
             {
                 for (var j = 1; j <= i; j++)
                 {
-                    Console.WriteLine("*");
+                    Console.Write("*");
                 }
 
-                Console.WriteLine("\n");
+                Console.WriteLine();
             }
 
         }
