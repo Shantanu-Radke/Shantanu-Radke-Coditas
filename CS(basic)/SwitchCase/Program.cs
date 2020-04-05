@@ -10,33 +10,33 @@ namespace SwitchCase
     {
         public enum season
         {
-            summer,
-            winter,
-            rainy,
-            spring
+            Summer,
+            Winter,
+            Rainy,
+            Spring
         }
 
 
         static void Main(string[] args)
         {    
-            var ThisSeason=season.summer;
+            var ThisSeason=season.Summer;
 
             switch (ThisSeason)
             {
-                case season.summer:
+                case season.Summer:
                     Console.WriteLine("It is hot ");
                     break;
 
 
-                    case season.winter:
+                    case season.Winter:
                     Console.WriteLine("It is cold ");
                     break;
 
-                    case season.rainy:
+                    case season.Rainy:
                     Console.WriteLine("It is rainy");
                     break;
 
-                    case season.spring:
+                    case season.Spring:
                     Console.WriteLine("It is beautiful ");
                     break;
 
