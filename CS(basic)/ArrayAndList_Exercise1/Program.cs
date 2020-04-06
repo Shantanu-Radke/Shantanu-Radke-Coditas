@@ -1,5 +1,5 @@
-﻿/*Ask user to enter the name and reverse it using array and store it in string and display
-*/
+﻿//Ask user to enter the name and reverse it using array and store it in string and display
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
