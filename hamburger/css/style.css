@@ -1,0 +1,45 @@
+.menu li{
+    list-style : none;
+    
+}
+
+
+.container{
+
+   
+    background: url(../img/showcase.jpg) no-repeat  ;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width:100vw;
+    color: azure;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.btn{
+    color:white;
+    text-decoration: none;
+    background: rgba(13, 110, 139, 0.75);
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    opacity: 0.75;
+}
+
+#showcase{
+    max-width: 960px;
+}
+
+#showcase h1{
+    font-size: 4rem;
+}
+
+#showcase p{
+    font-size : 1.3rem;
+}
